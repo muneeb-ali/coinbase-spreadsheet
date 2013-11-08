@@ -1,7 +1,7 @@
 coinbase-spreadsheet
 ====================
 
-Get Coinbase BTC price in a Google spreadsheet
+Get Coinbase bitcoin (sell/buy) price in a Google spreadsheet
 
 1. Open the Google spreadsheet where you want to import the Coinbase price
 2. Go to "Tools" --> "Script Manager". Click on "New" --> "Blank Project"
