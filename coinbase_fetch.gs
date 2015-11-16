@@ -9,12 +9,12 @@ function coinbase_price() {
   var buy_url = "https://coinbase.com/api/v1/prices/buy"
   
   var response = UrlFetchApp.fetch(sell_url)
-  var data = Utilities.jsonParse(response)
+  var data = JSON.parse(response)
   
   var sell_price = data.amount
   
   response = UrlFetchApp.fetch(buy_url)
-  data = Utilities.jsonParse(response)
+  data = JSON.parse(response)
   
   var buy_price = data.amount
   
